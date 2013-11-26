@@ -1,0 +1,44 @@
+body {
+    margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+    background-color: #efe;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "Asap";
+    font-weight: bold;
+}
+
+nav {
+    font-family: "Asap";
+    color: #efe;
+}
+
+.navbar-inverse {
+    background-color: #246b4b;
+    border-color: #246b4b;
+}
+
+
+.jumbotron {
+    font-family: "Asap";
+    font-weight: bold;
+    background: url(/img/green-london.jpg) center center no-repeat;
+    background-size: cover;
+    color: #efe; 
+    text-shadow: 0 0 10px #111;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        height: 300px;
+        font-size: 72px;
+    }
+
+    .jumbotron h1 { 
+        font-size: 120px;
+    }
+}
+
+footer {
+    margin: 50px 0;
+}
