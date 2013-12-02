@@ -151,7 +151,7 @@ var statin_prescriptions = function statin_prescriptions(div_map) {
 
         function zoomToFeature(e) {
             e.target._map.fitBounds(e.target.getBounds());
-            map.setZoom(9);
+            map.setZoom(10);
             switch_to_gp_layer();
         }
     }
@@ -211,7 +211,7 @@ var statin_prescriptions = function statin_prescriptions(div_map) {
             pointToLayer: pointToLayer
         });
 
-        gpLegend = addLegend([100, 40, 45, 30, 25, 20, 15, 10, 5, 0], map, gp_color);
+        gpLegend = addLegend([40, 35, 30, 25, 20, 15, 10, 5, 0], map, gp_color);
 
         function highlightFeature(e) {
             var layer = e.target;
